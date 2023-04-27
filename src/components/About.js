@@ -1,4 +1,5 @@
 export default function About() {
+    //TODO: Make buttons smoothly scroll instead of snapping down the pages
     return(
         <section id="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
