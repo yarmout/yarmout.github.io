@@ -32,3 +32,10 @@ export const projects = [
         link: "https://google.com",
     },
 ];
+
+export const skills = [
+    "Skill 1",
+    "Skill 2",
+    "Skill 3",
+    "Skill 4",
+]
