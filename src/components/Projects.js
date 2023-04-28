@@ -1,6 +1,6 @@
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import { projects } from "../data";
-
+//TODO: Remove images. Make borders pop when hovering over them.
 export default function Projects() {
     return (
         <section id="projects">

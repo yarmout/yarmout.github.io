@@ -1,5 +1,6 @@
 export default function Contract() {
     //TODO: Center contact form
+    //TODO: Replace form with a email link
     return(
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">

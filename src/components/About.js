@@ -1,5 +1,6 @@
+import { Link, animateScroll as scroll } from "react-scroll";
+
 export default function About() {
-    //TODO: Make buttons smoothly scroll instead of snapping down the pages
     return(
         <section id="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -9,20 +10,22 @@ export default function About() {
                         <br className="hidden lg:inline-block" /> I love to build amazing apps.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                        laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                        Laborum, voluptas natus?
+                        I’m a software developer with experience in web development and building mobile apps. I love  to
+                        work on projects that involve tackling new challenges and working with new technologies.
                     </p>
                     <div className="flex justify-center">
-                        <a
-                            href="#projects"
+                        <Link
+                            to="projects"
+                            smooth={true}
                             className="inline-flex text-white bg-green-500 border-0 px-6 py-2 focus:outline-none hover:bg-green-600 rounded text-lg">
-                            See my past work
-                        </a>
-                        <a href="#contact"
+                            See my work
+                        </Link>
+                        <Link
+                            to="contact"
+                            smooth={true}
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 px-6 py-2 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                            Work with me
-                        </a>
+                            Contact me
+                        </Link>
                     </div>
                 </div>
             </div>
