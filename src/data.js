@@ -4,7 +4,6 @@ export const projects = [
         subtitle: "React and Python",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: require("./images/puppy.jpeg"),
         link: "https://google.com",
     },
     {
@@ -12,7 +11,6 @@ export const projects = [
         subtitle: "React and Python",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: require("./images/puppy.jpeg"),
         link: "https://google.com",
     },
     {
@@ -20,7 +18,6 @@ export const projects = [
         subtitle: "React and Python",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: require("./images/puppy.jpeg"),
         link: "https://google.com",
     },
     {
@@ -28,7 +25,6 @@ export const projects = [
         subtitle: "React and Python",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: require("./images/puppy.jpeg"),
         link: "https://google.com",
     },
 ];
@@ -38,4 +34,6 @@ export const skills = [
     "Skill 2",
     "Skill 3",
     "Skill 4",
+    "Skill 5",
+    "Skill 6"
 ]
