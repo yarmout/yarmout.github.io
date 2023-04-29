@@ -1,39 +1,39 @@
 export const projects = [
     {
-        title: "Project 1",
-        subtitle: "React and Python",
+        title: "Spotify Music Discovery",
+        subtitle: "Python (Flask), Spotify API, and Genius API",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        link: "https://google.com",
+            "A music discovery app to recommend you new songs. Gives a quick preview of the song and a link to the lyrics. Refresh for a new song!",
+        link: "https://github.com/NJIT-CS490-SP21/project1-ya82",
     },
     {
-        title: "Project 2",
-        subtitle: "React and Python",
+        title: "Online Tic-Tac-Toe",
+        subtitle: "React, Python (Flask), Socket.IO, and PostgreSQL",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        link: "https://google.com",
+            "A multiplayer tic-tac-toe game utilizing React frontend clients and a Python backend server.",
+        link: "https://github.com/NJIT-CS490-SP21/project2-ya82",
     },
     {
-        title: "Project 3",
-        subtitle: "React and Python",
+        title: "Twitter Client",
+        subtitle: "Java, Android Studio, and Twitter API",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        link: "https://google.com",
+            "An Android app that acts as a custom Twitter client. User's can login to their Twitter accounts, view their feed, and post new Tweets to Twitter.",
+        link: "https://github.com/yarmout/SimpleTweet",
     },
     {
-        title: "Project 4",
-        subtitle: "React and Python",
+        title: "Instagram Clone",
+        subtitle: "Java, Android Studio, and Parse API",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        link: "https://google.com",
+            "An Android app that emulates the functionality of Instagram. User's can upload and share photos to the photo feeds of their friends.",
+        link: "https://github.com/yarmout/Parstagram",
     },
 ];
 
 export const skills = [
-    "Skill 1",
-    "Skill 2",
-    "Skill 3",
-    "Skill 4",
-    "Skill 5",
-    "Skill 6"
+    "React",
+    "Python",
+    "Java",
+    "C/C++",
+    "JavaScript",
+    "SQL"
 ]

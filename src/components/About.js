@@ -18,13 +18,13 @@ export default function About() {
                             to="projects"
                             smooth={true}
                             offset={-70}
-                            className="inline-flex text-white bg-green-500 border-0 px-6 py-2 focus:outline-none hover:bg-green-600 rounded text-lg">
+                            className="inline-flex text-white bg-green-500 border-0 px-6 py-2 focus:outline-none hover:bg-green-600 rounded text-lg cursor-pointer">
                             See my work
                         </Link>
                         <Link
                             to="contact"
                             smooth={true}
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 px-6 py-2 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 px-6 py-2 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg cursor-pointer">
                             Contact me
                         </Link>
                     </div>

@@ -16,6 +16,7 @@ export default function Projects() {
                     {projects.map(project => (
                         <a
                             href={project.link}
+                            target="_blank"
                             className="sm:w-1/2 w-100 p-4">
                             <div className="flex relative">
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 hover:border-indigo-500 hover:ring-2 hover:ring-indigo-900 transistion-colors duration-300 ease-in-out">
