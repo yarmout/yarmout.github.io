@@ -3,37 +3,38 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
     return (
-        <header className="bg-gray-800 md:sticky top-0 z-10">
-            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <a>
+        <header className="md:sticky bg-gray-900 top-0 z-50">
+            <div className="container mx-auto flex flex-wrap p-5 flex-row shadow-xl">
+                <nav>
                     <Link
                         to="about"
-                        smooth={true}
-                        className="ml-3 text-xl hover:text-white">
+                        className="title-font font-medium text-white mb-0 ml-3 text-xl"
+                        smooth={true}>
                         Yezen Armout
                     </Link>
-                </a>
-                <nav className="md:mr-auto md:ml-4">
                     <Link
                         to="projects"
                         smooth={true}
-                        className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 hover:text-white">
+                        className="mr-auto ml-4 py-1 pl-4 border-l border-gray-700 hover:text-white"
+                        offset={-70}>
                         Past Work
                     </Link>
                     <Link
                         to="skills"
                         smooth={true}
-                        className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 hover:text-white">
+                        className="inline-flex items-center border-0 py-1 px-3 focus:outline-none text-base mt-4 mt-0 hover:text-white"
+                        offset={-70}>
                         Skills
                     </Link>
+                    <Link
+                        to="contact"
+                        className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 rounded text-base mt-4 mt-0"
+                        smooth={true}>
+                        Contact Me
+                        <ArrowRightIcon className="w-4 h-4 ml-1"/>
+                    </Link>
                 </nav>
-                <Link
-                    to="contact"
-                    smooth={true}
-                    className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 hover:text-white">
-                    Contact Me
-                    <ArrowRightIcon className="w-4 h-4 ml-1"/>
-                </Link>
+
             </div>
         </header>
     );

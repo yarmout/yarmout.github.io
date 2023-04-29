@@ -17,6 +17,7 @@ export default function About() {
                         <Link
                             to="projects"
                             smooth={true}
+                            offset={-70}
                             className="inline-flex text-white bg-green-500 border-0 px-6 py-2 focus:outline-none hover:bg-green-600 rounded text-lg">
                             See my work
                         </Link>
