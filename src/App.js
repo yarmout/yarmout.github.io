@@ -13,6 +13,7 @@ import { useEffect } from "react";
 //TODO: Give projects a link icon
 //TODO: Fix spacing on top of navbar
 //TODO: Create logo
+//TODO: Unify spacing of projects boxes
 
 
 function App() {
