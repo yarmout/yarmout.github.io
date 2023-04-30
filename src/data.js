@@ -8,9 +8,9 @@ export const projects = [
     },
     {
         title: "Online Tic-Tac-Toe",
-        subtitle: "React, Python (Flask), Socket.IO, and PostgreSQL",
+        subtitle: "React, Python (Flask), Socket.IO",
         description:
-            "A multiplayer tic-tac-toe game utilizing React frontend clients and a Python backend server.",
+            "A multiplayer tic-tac-toe game utilizing React frontend clients and a Python backend server. Uses PostgreSQL to keep and update the leaderboard.",
         link: "https://github.com/NJIT-CS490-SP21/project2-ya82",
     },
     {

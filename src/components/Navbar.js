@@ -7,7 +7,7 @@ export default function Navbar() {
             <div className="mx-auto flex flex-wrap p-5 flex-row shadow-xl w-full">
                 <nav>
                     <Link
-                        to="about"
+                        to="home"
                         className="title-font font-medium text-white mb-0 ml-3 text-xl cursor-pointer"
                         smooth={true}>
                         Yezen Armout
