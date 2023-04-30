@@ -7,13 +7,12 @@ import Contact from "./components/Contact";
 import { useEffect } from "react";
 
 //TODO: MVP 1
-//TODO: Create logo
 
 //TODO: MVP 2
 //TODO: Add Google analytics to website
 //TODO: Give projects a link icon
 //TODO: Fix spacing on top of navbar
-
+//TODO: Create logo
 
 
 function App() {
