@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://yarmout.github.io",
+  "homepage": "https://yezenarmout.com",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.0.17",

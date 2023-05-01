@@ -7,6 +7,9 @@ import Contact from "./components/Contact";
 import { useEffect } from "react";
 
 //TODO: MVP 1
+//TODO: Replace email link with iCloud link, modify text
+//TODO: Remove extra line from about section
+//TODO: Secure website
 
 //TODO: MVP 2
 //TODO: Add Google analytics to website
