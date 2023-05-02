@@ -27,13 +27,13 @@ export default function Navbar() {
                         Skills
                     </Link>
                 </nav>
-                <Link
-                    to="contact"
-                    className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 rounded text-base mt-4 mt-0 ml-auto cursor-pointer"
-                    smooth={true}>
-                    Contact Me
-                    <ArrowRightIcon className="w-4 h-4 ml-1"/>
-                </Link>
+                {/*<Link*/}
+                {/*    to="contact"*/}
+                {/*    className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 rounded text-base mt-4 mt-0 ml-auto cursor-pointer"*/}
+                {/*    smooth={true}>*/}
+                {/*    Contact Me*/}
+                {/*    <ArrowRightIcon className="w-4 h-4 ml-1"/>*/}
+                {/*</Link>*/}
             </div>
         </header>
     );

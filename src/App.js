@@ -3,15 +3,14 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
 import { useEffect } from "react";
 
 //TODO: MVP 1
-//TODO: Replace email link with iCloud link, modify text
 //TODO: Remove extra line from about section
 //TODO: Secure website
 
 //TODO: MVP 2
+//TODO: Create Contact Form
 //TODO: Add Google analytics to website
 //TODO: Give projects a link icon
 //TODO: Fix spacing on top of navbar
@@ -31,7 +30,6 @@ function App() {
             <About />
             <Projects />
             <Skills />
-            <Contact />
         </section>
     </main>
   );
